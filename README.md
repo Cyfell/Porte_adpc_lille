@@ -8,7 +8,7 @@ Web : PHP, HTML, CSS
 SGBD : mysql, phpmyadmin
 
 ## Comment tester avec docker?
-Install docker (sudo dnf install docker)
+Install docker et docker-compose(sudo dnf install docker)
 launch deamon sudo service docker start
 install apache2 & php sudo docker run -p 80:80 -v /path/to/webcontent/:/var/www/html/ -d eboraas/apache-php
 
